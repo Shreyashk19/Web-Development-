@@ -31,6 +31,11 @@
             border-radius: 10px;
             margin: 15px;
             box-shadow: 0px 0px 8px gray;
+            transition: 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
         }
 
         footer {
@@ -54,29 +59,32 @@
 
 <div class="container">
 
-    <h2>Example 1: Image from Local Folder</h2>
+    <h2>Example 1: Nature Image</h2>
 
-    <!-- Save an image in same folder and rename it as sample.jpg -->
-    <img src="sample.jpg" width="300" height="200" alt="Local Image">
-
-    <h2>Example 2: Image from Internet</h2>
-
-    <img src="https://via.placeholder.com/300x200.png?text=Sample+Image"
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=600"
          width="300"
          height="200"
-         alt="Online Image">
+         alt="Nature Image">
 
-    <h2>Example 3: Image with Title</h2>
+    <h2>Example 2: Beach Image</h2>
 
-    <img src="https://via.placeholder.com/300"
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600"
          width="300"
-         alt="Image with title"
-         title="This is an example image">
+         height="200"
+         alt="Beach Image">
+
+    <h2>Example 3: Mountain Image with Title</h2>
+
+    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=600"
+         width="300"
+         height="200"
+         alt="Mountain Image"
+         title="Beautiful Mountain View">
 
 </div>
 
 <footer>
-    <p>Created by: Your Name | HTML Practical Assignment</p>
+    <p>Created by: Shreyash Kamble | HTML Practical Assignment</p>
 </footer>
 
 </body>
